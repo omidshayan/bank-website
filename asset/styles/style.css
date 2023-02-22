@@ -510,3 +510,8 @@ footer ul li a{
         text-align: justify;
         padding: 0 10px;
     }
+.m-title{
+    text-align: center;
+    margin: 200px;
+    color: var(--supplement);
+}
