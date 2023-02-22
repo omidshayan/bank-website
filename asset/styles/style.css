@@ -10,9 +10,9 @@
     src: url('../fonts/B-NAZANIN.TTF') format('ttf');
 }
 :root {
-  --main: #ebebeb;
+  --main: #ededed;
   --supplement: #553AB8;
-  --white: #dfdfdf;
+  --white: #fff;
   --dark: #272727ef;
 }
 body{
@@ -442,3 +442,71 @@ footer ul li a{
     color: var(--main1);
 }
 
+/* home history */
+.history{
+    padding: 20px;
+}
+.hr-style{
+    margin-bottom: 10px;
+    border: 1px solid var(--supplement);
+}
+.text-post{
+    text-align: justify;
+}
+.data-style{
+    padding: 40px;
+    background-color: var(--white);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: var(--dark);
+}
+
+.show-post img{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.show-post img:hover{
+        transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Bank accounts start */
+
+/* conference */
+.accounts{
+    width: 100%;
+    padding: 7px 0;
+    }
+    .accounts-item{
+        margin-top: 30px;
+        background-color: var(--white);
+        padding: 10px;
+        transition: 0.5s;
+        border-radius: 5px;
+        height: 470px;
+        transition: 0.5s;
+        margin-bottom: 40px;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        overflow: hidden;
+    }
+    .accounts-item:hover{
+        background-color: var(--supplement);
+        color: var(--white);
+    }
+    .accounts-item p{
+        text-align: right;
+        margin-top: 10px;
+        text-align: justify;
+        padding: 0 10px;
+    }
