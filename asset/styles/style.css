@@ -590,6 +590,7 @@ width: 100%;
 .date{
     margin-top: 15px;
     font-size: 14px;
+    color: #000;
 }
 .notif-back{
     background: rgb(122,253,255);
